@@ -42,3 +42,34 @@ $theme-dark: #222;
         "mixins",
         "base"
 ;
+
+#button-sign-up-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#button-sign-up {
+	width: 100%;
+	height: 3rem;
+	border: none;
+	background-image: linear-gradient(to right, #009FDD, #62B771);
+	color: white;
+	font-size: 1.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.2rem;
+	font-weight: 500;
+}
+
+#button-sign-up:hover {
+	border: solid;
+	border-color: #009FDD;
+	background-image: linear-gradient(white, white);
+	color: #009FDD;
+}
+
+.mentor-photo {
+	width: 15rem;
+	border-radius: 100%;
+	border: solid 2px #52B195;
+}
