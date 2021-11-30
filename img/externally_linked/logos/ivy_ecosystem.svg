@@ -115,18 +115,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="237.56868"
-     inkscape:cy="181.83871"
+     inkscape:cx="109.35439"
+     inkscape:cy="178.98157"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-global="false"
-     inkscape:window-width="1848"
-     inkscape:window-height="1016"
-     inkscape:window-x="1992"
-     inkscape:window-y="27"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="3840"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     units="px" />
+     units="px"
+     showguides="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -148,7 +149,7 @@
        xml:space="preserve"
        id="flowRoot822-3"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.50680333,0,0,0.50680333,-259.31519,-1480.0067)"><flowRegion
+       transform="matrix(0.50680333,0,0,0.50680333,-267.94545,-1480.0067)"><flowRegion
          id="flowRegion824-6"><rect
            id="rect826-7"
            width="2291.4285"
@@ -156,7 +157,7 @@
            x="537.14282"
            y="3453.3184" /></flowRegion><flowPara
          id="flowPara828-5"
-         style="fill:#009600;fill-opacity:1">Ecosystem</flowPara></flowRoot>    <flowRoot
+         style="fill:#009600;fill-opacity:1">ECOSYSTEM</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot4485"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
