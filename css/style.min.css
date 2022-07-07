@@ -1,0 +1,311 @@
+.liner {
+  z-index: 1;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  box-sizing: content-box;
+  width: 875px;
+  max-width: calc(100% - 250px);
+  margin: auto;
+  margin-top: 25px;
+}
+@media only screen and (max-width: 768px) {
+  .liner {
+    box-sizing: border-box;
+    max-width: calc(100% - 150px);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .liner {
+    max-width: calc(100% - 100px);
+  }
+}
+.liner div {
+  -webkit-tap-highlight-color: transparent;
+}
+.liner div:focus {
+  outline: none;
+  box-shadow: none;
+}
+.liner.disabled span {
+  pointer-events: none;
+  cursor: unset;
+}
+.liner span{
+  border: 5px solid transparent;
+  border-width: 5px !important;
+  transform: translate(0px, 0px);
+  cursor: pointer;
+  box-sizing: border-box;
+  aspect-ratio: 1/1;
+  width: 85px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.3s, transform 0.3s, border-color 0.3s;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .liner span {
+    border-width: 3px !important;
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .liner span {
+    border-width: 2px !important;
+    width: 40px;
+  }
+}
+.liner button.bracket {
+  position: absolute;
+  left: -120px;
+  background-color: transparent;
+  visibility: hidden;
+  border: 0;
+  cursor: pointer;
+  transition: transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 0;
+}
+@media only screen and (max-width: 768px) {
+  .liner button.bracket {
+    left: -80px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .liner button.bracket {
+    left: -50px;
+  }
+}
+.liner button.bracket img {
+  width: 175px;
+  height: auto;
+}
+.liner button.bracket:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+.liner .column {
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
+  position: relative;
+}
+.liner .column .title {
+  font-size: 30px;
+  color: #646464;
+  text-align: center;
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 768px) {
+  .liner .column .title {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .liner .column .title {
+    font-size: 14px;
+  }
+}
+.liner .column .title span {
+  color: #009600;
+  display: block;
+  border: none;
+  transform: none;
+  box-sizing: content-box;
+  aspect-ratio: unset;
+  width: unset;
+  height: unset;
+  display: flex;
+  border-radius: 0;
+  transition: none;
+}
+.liner .column.big {
+  margin-top: 0;
+}
+.liner .column.big > .title {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 768px) {
+  .liner .column.big > .title {
+    margin-bottom: 10px;
+  }
+}
+.liner .column.big span {
+  width: 110px;
+}
+.liner .column.big span img {
+  max-width: 65px;
+  max-height: 65px;
+}
+@media only screen and (max-width: 768px) {
+  .liner .column.big span {
+    width: 70px;
+  }
+  .liner .column.big span img {
+    max-width: 45px;
+    max-height: 45px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .liner .column.big span {
+    width: 50px;
+  }
+  .liner .column.big span img {
+    max-width: 32px;
+    max-height: 32px;
+  }
+}
+.liner .item {
+  position: relative;
+  color: white;
+  font-size: 36px;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.liner .item.worn {
+  cursor: unset;
+}
+.liner .item .title {
+  position: absolute;
+  font-size: 32px;
+  line-height: 1;
+  text-align: start;
+  width: 100px;
+  left: 125%;
+  margin-bottom: 0;
+  color: #1caf1f;
+}
+@media only screen and (max-width: 768px) {
+  .liner .item .title {
+    font-size: 20px;
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .liner .item .title {
+    font-size: 16px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+.liner .item img {
+  max-width: 60px;
+  max-height: 60px;
+}
+@media only screen and (max-width: 768px) {
+  .liner .item img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .liner .item img {
+    max-width: 30px;
+    max-height: 30px;
+  }
+}
+.liner .pseudoBG {
+  position: absolute;
+  background-color: #63df68;
+  border: 5px solid #1caf1f;
+  z-index: -1;
+  transition: none;
+}
+@media only screen and (max-width: 768px) {
+  .liner .pseudoBG {
+    border-width: 3px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .liner .pseudoBG {
+    border-width: 2px !important;
+  }
+}
+.liner svg {
+  position: absolute;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  shape-rendering: auto;
+  pointer-events: none;
+  z-index: -2;
+}
+.liner svg line {
+  stroke-width: 5;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 10000;
+  stroke: #1caf1f;
+}
+@media only screen and (max-width: 768px) {
+  .liner svg line {
+    stroke-width: 3;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .liner svg line {
+    stroke-width: 2;
+  }
+}
+.liner .message-box {
+  visibility: hidden;
+  opacity: 0;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  border: 5px solid #63df68;
+  width: 250px;
+  min-height: 150px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 25px 20px 15px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.liner .message-box p {
+  font-weight: 600;
+  color: #777;
+  font-size: 16px;
+}
+.liner .message-box button {
+  margin-top: auto;
+  align-self: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #63df68;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding: 5px 15px;
+  border-radius: 16px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.4s;
+}
+.liner .message-box button:hover {
+  background-color: #1caf1f;
+}
+
+.liner .column .title #title-main {
+  color: #009600;
+}
