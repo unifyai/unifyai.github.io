@@ -34,7 +34,7 @@
   pointer-events: none;
   cursor: unset;
 }
-.liner span {
+.liner span{
   border: 5px solid transparent;
   border-width: 5px !important;
   transform: translate(0px, 0px);
@@ -304,4 +304,8 @@
 }
 .liner .message-box button:hover {
   background-color: #1caf1f;
+}
+
+.liner .column .title #title-main {
+  color: #009600;
 }
