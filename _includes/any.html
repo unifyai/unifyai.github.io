@@ -1,39 +1,9 @@
 <section id="any" class="liner mt-5">
   <div class="column" data-min="1">
-    <div class="title">run any<div id="title-main">code</div></div>
-    <div class="item">
-      <button class="bracket">
-        <img src="img/svg/codeBracket.svg" alt="" /></button
-      ><span><img src="img/svg/mxnet.svg" alt="" /></span>
+    <div class="title">
+      run any
+      <div id="title-main">code</div>
     </div>
-    <div class="item">
-      <button class="bracket">
-        <img src="img/svg/codeBracket.svg" alt="" /></button
-      ><span><img src="img/svg/tenserflow.svg" alt="" /></span>
-    </div>
-    <div class="item">
-      <button class="bracket">
-        <img src="img/svg/codeBracket.svg" alt="" /></button
-      ><span><img src="img/svg/jax.svg" alt="" /></span>
-    </div>
-    <div class="item active">
-      <button class="bracket">
-        <img src="img/svg/codeBracket.svg" alt="" /></button
-      ><span><img src="img/svg/pytorch.svg" alt="" /></span>
-    </div>
-    <div class="item">
-      <button class="bracket">
-        <img src="img/svg/codeBracket.svg" alt="" /></button
-      ><span><img src="img/svg/numpy.svg" alt="" /></span>
-    </div>
-    <div class="item">
-      <button class="bracket">
-        <img src="img/svg/codeBracket.svg" alt="" /></button
-      ><span><img src="img/svg/ivy.svg" alt="" /></span>
-    </div>
-  </div>
-  <div class="column" data-multiple="false">
-    <div class="title">in any<div id="title-main">pipeline</div></div>
     <div class="item">
       <span><img src="img/svg/mxnet.svg" alt="" /></span>
     </div>
@@ -54,8 +24,11 @@
     </div>
   </div>
   <div class="column" data-multiple="false">
-    <div class="title">with any<div id="title-main">backend</div></div>
-    <div class="item" data-forbidden="2" data-message="MXNet backend cannot be used with a TPU">
+    <div class="title">
+      in any
+      <div id="title-main">pipeline</div>
+    </div>
+    <div class="item">
       <span><img src="img/svg/mxnet.svg" alt="" /></span>
     </div>
     <div class="item">
@@ -67,21 +40,44 @@
     <div class="item">
       <span><img src="img/svg/pytorch.svg" alt="" /></span>
     </div>
-    <div
-      class="item"
-      data-forbidden="1,2"
-      data-message="NumPy backend cannot be used with a GPU or TPU"
-    >
+    <div class="item">
+      <span><img src="img/svg/numpy.svg" alt="" /></span>
+    </div>
+    <div class="item">
+      <span><img src="img/svg/ivy.svg" alt="" /></span>
+    </div>
+  </div>
+  <div class="column" data-multiple="false">
+    <div class="title">
+      with any
+      <div id="title-main">backend</div>
+    </div>
+    <div class="item" data-forbidden="2">
+      <span><img src="img/svg/mxnet.svg" alt="" /></span>
+    </div>
+    <div class="item">
+      <span><img src="img/svg/tenserflow.svg" alt="" /></span>
+    </div>
+    <div class="item">
+      <span><img src="img/svg/jax.svg" alt="" /></span>
+    </div>
+    <div class="item">
+      <span><img src="img/svg/pytorch.svg" alt="" /></span>
+    </div>
+    <div class="item" data-forbidden="1,2">
       <span><img src="img/svg/numpy.svg" alt="" /></span>
     </div>
   </div>
   <div class="column big" data-multiple="false">
-    <div class="title">on any<div id="title-main">hardware</div></div>
-    <div class="item" data-message="GPU cannot be used with a NumPy backend">
+    <div class="title">
+      on any
+      <div id="title-main">hardware</div>
+    </div>
+    <div class="item">
       <span><img src="img/svg/GPU.svg" alt="" /></span>
       <div class="title">GPU</div>
     </div>
-    <div class="item" data-message="TPU cannot be used with a NumPy or MXNet backend">
+    <div class="item">
       <span><img src="img/svg/TPU.svg" alt="" /></span>
       <div class="title">TPU</div>
     </div>
@@ -93,9 +89,5 @@
       <span><img src="img/svg/Multi_node.svg" alt="" /></span>
       <div class="title">Multi Node</div>
     </div>
-  </div>
-  <div class="message-box">
-    <p class="message"></p>
-    <button>Ok</button>
   </div>
 </section>
