@@ -50,10 +50,19 @@ function checkDate(dat) {
 
 var index = times.findIndex(checkDate);
 var next_event = new Date(dates[index]);
-document.getElementById("utc").innerHTML = next_event.toUTCString();
 
 var local = new Date(next_event.toString());
-document.getElementById("local").innerHTML = local;
+var offset = local.getTimezoneOffset();
+var timeString = `${Math.floor(Math.abs(offset / 60))}:${Math.abs(offset % 60)}`;
+console.log(timeString);
+console.log(offset);
+var timezone = offset > 0 ? `${timeString}` : `+${timeString}`;
+var monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+document.getElementById(
+  "local"
+).innerHTML = `${monthNames[local.getMonth()]} ${local.getDate()}, ${local.getHours()}:${local.getMinutes()} (GMT${timezone})`;
 var l = local.toString();
 l = l.split("+")[0];
 var k = new Date(l);
