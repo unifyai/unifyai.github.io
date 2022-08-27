@@ -11,7 +11,6 @@ const events = [
   { date: "July 30, 2022 17:00:00 UTC", link: "abc" },
   { date: "Aug 07, 2022 7:00:00 UTC", link: "abc" },
   { date: "Aug 13, 2022 17:00:00 UTC", link: "abc" },
-  { date: "Aug 27, 2022 17:00:00 UTC", link: "https://discord.gg/wZSFGVEe?event=990849944384569404" },
   { date: "Sep 04, 2022 7:00:00 UTC", link: "https://discord.gg/wZSFGVEe?event=990850048726274068" },
   { date: "Sep 10, 2022 17:00:00 UTC", link: "https://discord.gg/wZSFGVEe?event=990851728167551046" },
   { date: "Sep 18, 2022 7:00:00 UTC", link: "https://discord.gg/wZSFGVEe?event=990851848460189698" },
