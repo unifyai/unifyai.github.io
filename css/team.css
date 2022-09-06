@@ -7,11 +7,18 @@
     margin-top: 10px;
 }
 
+#team_content .team-container {
+  padding: 0 120px;
+}
+
+#team_container .card-container {
+  margin: 50px;
+}
+
 #team_content .card {
   transition: all 0.3s ease-in;
   border-radius: 10px;
   padding: 20px 20px;
-  margin: 30px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,4 +85,16 @@
 
 #team_content .profile-icon {
   margin-right: 10px;
+}
+
+@media  only screen and (min-width: 768px) {
+  #team_content .team-container {
+    padding: 0 60px;
+  }
+}
+
+@media  only screen and (max-width: 768px) {
+  #team_content .team-container {
+    padding: 0 0px;
+  }
 }

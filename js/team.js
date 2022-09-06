@@ -76,7 +76,6 @@ const team_container = document.querySelector(".team-container");
 for (let member of team) {
   const card = document.createElement("div");
   card.classList.add("card-container");
-  card.classList.add("col-lg-3");
   card.classList.add("col-md-4");
   card.classList.add("col-sm-6");
   card.innerHTML = `
