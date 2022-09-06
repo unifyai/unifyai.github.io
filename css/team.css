@@ -1,30 +1,22 @@
 #team_header h2 {
-  font-weight: 900;
-  text-transform: uppercase;
   color: white;
-  font-size: 3em;
-}
-#team_header h2 {
-  font-weight: 900;
-  text-transform: uppercase;
-  color: white;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 #team_content {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #team_content .card {
-  transition: box-shadow 0.3s;
-  border: 1px solid #ccc;
+  transition: all 0.3s ease-in;
   border-radius: 10px;
   padding: 20px 20px;
   margin: 30px 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  opacity: 0.0;
 }
 
 #team_content .card:hover {
@@ -33,6 +25,7 @@
 
 #team_content .image-container {
   width: 150px;
+  border-radius: 50%;
 }
 
 #team_content .image {
@@ -43,6 +36,7 @@
 #team_content .name {
   font-size: 1.5em;
   font-weight: 700;
+  margin-top: 10px;
   color: #009600;
 }
 
@@ -56,14 +50,30 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
 }
 
 #team_content .card-content .bio {
   margin-top: 15px;
 }
 
-#team_content .github {
-  margin-top: 10px;
+#team_content .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+#team_content .github, .discord{
+  margin: 10px 30px;
+  padding-right: none;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+}
+
+#team_content .github:hover, .discord:hover{
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
 #team_content .profile-icon {
