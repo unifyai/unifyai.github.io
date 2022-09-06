@@ -8,7 +8,7 @@
 }
 
 #team_content .team-container {
-  padding: 0 120px;
+  padding: 0 150px;
 }
 
 #team_container .card-container {
@@ -89,7 +89,7 @@
 
 @media  only screen and (min-width: 768px) {
   #team_content .team-container {
-    padding: 0 60px;
+    padding: 0 75px;
   }
 }
 
