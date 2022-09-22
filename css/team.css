@@ -26,10 +26,6 @@
   opacity: 0.0;
 }
 
-#team_content .card:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
-}
-
 #team_content .image-container {
   width: 150px;
   border-radius: 50%;
@@ -40,10 +36,10 @@
   height: 100%;
 }
 
-#team_content .name {
-  font-size: 1.5em;
+#team_content .name-text{
+  /* font-size: 1.5em; */
   font-weight: 700;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   color: #009600;
 }
 
