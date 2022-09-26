@@ -1,0 +1,114 @@
+#team_header h2 {
+  color: white;
+  font-size: 2.5em;
+}
+
+#team_content {
+  margin-top: 10px;
+}
+
+#team_content .team-container {
+  padding: 0 150px;
+}
+
+.team-container .card-container {
+  height: 500px;
+}
+
+#team_content .card {
+  transition: all 0.3s ease-in;
+  border-radius: 10px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0;
+}
+
+#team_content .image-container {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#team_content .image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#team_content .name-text {
+  /* font-size: 1.5em; */
+  font-weight: 700;
+  /* margin-top: 10px; */
+  color: #009600;
+}
+
+#team_content .image-line {
+  color: #009600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#team_content .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#team_content .card-content .bio {
+  margin: 0 10%;
+  margin-top: 15px;
+}
+
+#team_content .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+#team_content .github,
+.discord {
+  margin: 10px 30px;
+  padding-right: none;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+}
+
+#team_content .github:hover,
+.discord:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+#team_content .profile-icon {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .team-container .card-container {
+        height: 550px;
+      }
+  }
+
+@media only screen and (min-width: 768px) {
+  #team_content .team-container {
+    padding: 0 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #team_content .team-container {
+    padding: 0 0px;
+  }
+
+  .team-container .card-container {
+    height: 400px;
+  }
+
+  #team_content .card-content .bio {
+    text-align: justify;
+  }
+}
