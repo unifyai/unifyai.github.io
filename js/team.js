@@ -144,10 +144,16 @@ const team = [
     github: "abdrahmandiab",
   },
   {
-    image: "../img/logos/ivy_logo_only.png",
+    image: "../img/team/Saeed.png",
     name: "Saeed Ashraf",
     bio: "GUC graduate with a degree in Computer Science and Engineering. A programmer who does not run on coffee but enjoys experiencing life and learning in an attempt to make the world a little better. ",
     github: "saeedashrraf",
+  },
+  {
+    image: "../img/team/dan.png",
+    name: "Daniel Lenton",
+    bio: "",
+    github: "djl11",
   },
 ];
 

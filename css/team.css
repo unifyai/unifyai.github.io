@@ -35,13 +35,11 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  background-color: rgba(200, 235, 200, 1.0);
 }
 
 #team_content .name-text {
-  /* font-size: 1.5em; */
   font-weight: 700;
-  /* margin-top: 10px; */
-  color: #009600;
 }
 
 #team_content .image-line {
