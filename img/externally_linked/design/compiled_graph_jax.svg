@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="81.657082mm"
-   height="42.627224mm"
-   viewBox="0 0 81.657082 42.627224"
+   width="340"
+   height="180"
+   viewBox="0 0 89.958333 47.625"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -29,7 +29,7 @@
      showgrid="false"
      inkscape:zoom="2.5877449"
      inkscape:cx="135.2529"
-     inkscape:cy="-1.7389658"
+     inkscape:cy="-1.352529"
      inkscape:window-width="1918"
      inkscape:window-height="2037"
      inkscape:window-x="0"
@@ -179,7 +179,7 @@
      transform="translate(-87.305796,-96.525767)">
     <g
        id="g2627"
-       transform="translate(-9.3870609,-0.38336182)">
+       transform="translate(-5.2364388,2.1155275)">
       <g
          id="g4117">
         <rect
@@ -204,7 +204,7 @@
     </g>
     <g
        id="g2640"
-       transform="translate(-11.117035,-10.122226)">
+       transform="translate(-6.9664129,-7.6233367)">
       <g
          id="g4008"
          transform="translate(2.7606083,-12.678349)">
@@ -231,17 +231,17 @@
     <text
        xml:space="preserve"
        style="font-size:3.175px;fill:#d4d4c8;fill-opacity:1;stroke:#d4d4d4;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
-       x="89.146057"
-       y="101.00944"
+       x="93.296684"
+       y="103.50832"
        id="text6458-5"><tspan
          sodipodi:role="line"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-opacity:1"
-         x="89.146057"
-         y="101.00944"
+         x="93.296684"
+         y="103.50832"
          id="tspan6456-3">ivy.matmul</tspan></text>
     <g
        id="g6492"
-       transform="translate(52.376188,43.912557)">
+       transform="translate(56.52681,46.411446)">
       <rect
          style="fill:#96c8c8;fill-opacity:1;stroke-width:0.0416952"
          id="rect6470"
@@ -269,7 +269,7 @@
     </g>
     <g
        id="g6492-1"
-       transform="translate(74.043719,12.052154)">
+       transform="translate(78.194341,14.551043)">
       <g
          id="g6666"
          transform="translate(-5.3678493,1.5847936)">
@@ -311,38 +311,38 @@
     </g>
     <path
        style="fill:#d4d4c8;fill-opacity:1;stroke:#d4d4d4;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-6-1)"
-       d="m 158.458,106.13006 h 1.34169"
+       d="m 162.60862,108.62895 h 1.34169"
        id="path3329-5-4"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#d4d4c8;fill-opacity:1;stroke:#d4d4d4;stroke-width:0.186996;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-6-5)"
-       d="m 165.19766,133.87464 h 0.94676"
+       d="m 169.34828,136.37353 h 0.94676"
        id="path3329-5-3"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-size:2.24043px;fill:#d4d4d4;fill-opacity:1;stroke:none;stroke-width:0.186995;stroke-dasharray:none;stroke-opacity:1"
-       x="168.98148"
-       y="134.70435"
+       x="173.1321"
+       y="137.20323"
        id="text7631"><tspan
          sodipodi:role="line"
          id="tspan7629"
          style="text-align:end;text-anchor:end;fill:#d4d4d4;fill-opacity:1;stroke-width:0.186996"
-         x="168.98148"
-         y="134.70435">A   B</tspan><tspan
+         x="173.1321"
+         y="137.20323">A   B</tspan><tspan
          sodipodi:role="line"
          style="text-align:end;text-anchor:end;fill:#d4d4d4;fill-opacity:1;stroke-width:0.186996"
-         x="168.98148"
-         y="137.50488"
+         x="173.1321"
+         y="140.00377"
          id="tspan7633">B depends on A</tspan></text>
     <text
        xml:space="preserve"
-       transform="scale(0.26458333)"
+       transform="matrix(0.26458333,0,0,0.26458333,4.1506221,2.4988893)"
        id="text10248"
        style="text-align:center;white-space:pre;shape-inside:url(#rect10250);display:inline;fill:#d4d4d4;fill-opacity:1;stroke:none;stroke-width:1.00157;stroke-dasharray:none;stroke-opacity:1" />
     <g
        id="g6492-2"
-       transform="translate(0.59488895,43.912557)">
+       transform="translate(4.745511,46.411446)">
       <g
          id="g466">
         <rect
@@ -376,27 +376,27 @@
        id="rect997"
        width="70.037666"
        height="13.496315"
-       x="87.605797"
-       y="96.825768"
+       x="91.756424"
+       y="99.324654"
        ry="0" />
     <path
        style="fill:#d4d4c8;fill-opacity:1;stroke:#d4d4d4;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-6-1-9)"
-       d="m 119.57259,106.13006 h 1.34169"
+       d="m 123.72321,108.62895 h 1.34169"
        id="path3329-5-4-3"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#d4d4c8;fill-opacity:1;stroke:#d4d4d4;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-6-1-0)"
-       d="M 91.184922,133.38155 91.082677,113.22682"
+       d="M 95.335544,135.88044 95.233299,115.72571"
        id="path3329-5-4-32"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#d4d4c8;fill-opacity:1;stroke:#d4d4d4;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-6-1-9)"
-       d="m 106.77892,114.5692 v -1.34169"
+       d="M 110.92954,117.06809 V 115.7264"
        id="path3375"
        sodipodi:nodetypes="cc" />
     <g
        id="g4671"
-       transform="translate(5.0431557,-0.85384943)">
+       transform="translate(9.1937778,1.6450399)">
       <path
          style="fill:#d4d4c8;fill-opacity:1;stroke:#d4d4d4;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-6-1-9)"
          d="m 106.77892,125.08645 v 1.34169"
@@ -423,7 +423,7 @@
     </g>
     <g
        id="g4587"
-       transform="translate(0.1354076,-0.85384943)">
+       transform="translate(4.2860297,1.6450399)">
       <rect
          style="fill:#ffc8c8;fill-opacity:1;stroke-width:0.0875439"
          id="rect6446-34-0"
@@ -446,30 +446,30 @@
     <text
        xml:space="preserve"
        style="font-size:3.175px;fill:#d4d4c8;fill-opacity:1;stroke:#d4d4d4;stroke-width:0.264999;stroke-dasharray:none;stroke-opacity:1"
-       x="101.8244"
-       y="119.88882"
+       x="105.97502"
+       y="122.3877"
        id="text6458-5-2"><tspan
          sodipodi:role="line"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-opacity:1"
-         x="101.8244"
-         y="119.88882"
+         x="105.97502"
+         y="122.3877"
          id="tspan6456-3-6">ivy.diag</tspan></text>
     <rect
        style="fill:none;stroke:#78c878;stroke-width:0.600001;stroke-dasharray:none"
        id="rect997-3"
        width="57.359325"
        height="13.496307"
-       x="100.28414"
-       y="115.70515"
+       x="104.43476"
+       y="118.20403"
        ry="0" />
     <path
        style="fill:#d4d4c8;fill-opacity:1;stroke:#d4d4d4;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-6-1-9-9)"
-       d="m 130.91673,125.1117 h -1.34169"
+       d="m 135.06735,127.61059 h -1.34169"
        id="path3329-5-4-3-6"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#d4d4c8;fill-opacity:1;stroke:#d4d4d4;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-6-1-9-5)"
-       d="m 142.9664,133.29908 v -1.34169"
+       d="m 147.11702,135.79797 v -1.34169"
        id="path3375-3"
        sodipodi:nodetypes="cc" />
   </g>
