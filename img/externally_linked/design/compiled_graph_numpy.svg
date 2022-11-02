@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="75.143303mm"
+   height="19.123726mm"
+   viewBox="0 0 75.143303 19.123726"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -28,8 +28,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.5877449"
-     inkscape:cx="455.99549"
-     inkscape:cy="402.08755"
+     inkscape:cx="168.10003"
+     inkscape:cy="36.518283"
      inkscape:window-width="1918"
      inkscape:window-height="2037"
      inkscape:window-x="22"
@@ -41,21 +41,21 @@
      id="defs2">
     <rect
        x="116.70393"
-       y="311.85453"
+       y="311.85452"
        width="428.17203"
        height="191.28624"
        id="rect10250" />
     <rect
-       x="502.94756"
-       y="376.38949"
-       width="35.55219"
+       x="502.94757"
+       y="376.3895"
+       width="35.552189"
        height="45.985985"
        id="rect6652" />
     <rect
-       x="549.89963"
-       y="420.25007"
+       x="549.89966"
+       y="420.25006"
        width="53.328285"
-       height="39.609777"
+       height="39.609776"
        id="rect6640" />
     <marker
        style="overflow:visible"
@@ -137,7 +137,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-76.13122,-96.864572)">
     <path
        style="fill:#d4d4c8;fill-opacity:1;stroke:#d4d4d4;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2-6-32)"
        d="m 82.639694,99.611895 h 1.34169"
@@ -263,7 +264,7 @@
          sodipodi:role="line"
          style="text-align:end;text-anchor:end;fill:#d4d4d4;fill-opacity:1;stroke-width:0.186996"
          x="151.29312"
-         y="115.52226"
+         y="115.52227"
          id="tspan7633">B depends on A</tspan></text>
     <text
        xml:space="preserve"

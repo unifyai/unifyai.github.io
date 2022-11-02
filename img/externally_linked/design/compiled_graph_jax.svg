@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="81.657082mm"
+   height="42.627224mm"
+   viewBox="0 0 81.657082 42.627224"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -28,8 +28,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.5877449"
-     inkscape:cx="465.26997"
-     inkscape:cy="362.67099"
+     inkscape:cx="135.2529"
+     inkscape:cy="-1.7389658"
      inkscape:window-width="1918"
      inkscape:window-height="2037"
      inkscape:window-x="0"
@@ -41,21 +41,21 @@
      id="defs2">
     <rect
        x="116.70393"
-       y="311.85453"
+       y="311.85452"
        width="428.17203"
        height="191.28624"
        id="rect10250" />
     <rect
-       x="502.94756"
-       y="376.38949"
-       width="35.55219"
+       x="502.94757"
+       y="376.3895"
+       width="35.552189"
        height="45.985985"
        id="rect6652" />
     <rect
-       x="549.89963"
-       y="420.25007"
+       x="549.89966"
+       y="420.25006"
        width="53.328285"
-       height="39.609777"
+       height="39.609776"
        id="rect6640" />
     <marker
        style="overflow:visible"
@@ -175,7 +175,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-87.305796,-96.525767)">
     <g
        id="g2627"
        transform="translate(-9.3870609,-0.38336182)">
