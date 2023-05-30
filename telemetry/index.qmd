@@ -1,4 +1,5 @@
 ---
+pagetitle: "Telemetry Policy - Ivy"
 sidebar: false
 ---
 
