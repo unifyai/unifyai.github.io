@@ -1,6 +1,7 @@
 project:
   type: website
-  output-dir: "."
+  output-dir: "quarto_pages"
+  lib-dir: "quarto_lib/lib"
   render:
     - "telemetry/index.qmd"
 
