@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: "."
+  render:
+    - "telemetry/index.qmd"
+
+website:
+  title: "Ivy"
+  favicon: "img/logos/ivy_logo_only.png"
+  page-navigation: true
+  sidebar: false
+
+format:
+  html:
+    toc: true
+    theme: css/custom.scss
+    page-layout: full
+    code-overflow: scroll
+    jupyter: python3
+    monobackgroundcolor: "#ffffff"
+    execute:
+      echo: true
+      output: true
+      eval: true
