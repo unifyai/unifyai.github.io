@@ -4,6 +4,7 @@ project:
   lib-dir: "quarto_lib/lib"
   render:
     - "telemetry/index.qmd"
+    - "privacy/index.qmd"
 
 website:
   title: "Ivy"

@@ -1,6 +1,5 @@
 ---
 pagetitle: "Telemetry Policy - Ivy"
-sidebar: false
 ---
 
 ## Telemetry Policy

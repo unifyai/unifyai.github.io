@@ -1,0 +1,36 @@
+---
+pagetitle: "Privacy Policy - Ivy"
+---
+
+## Privacy Policy
+
+This Privacy Policy explains how we collect, use, and disclose information when you use our website or services that utilize Google OAuth.
+
+### Collection of Information
+
+When you use our website or services that utilize Google OAuth, we may collect certain information from your Google account, including your name, email address, and profile picture. 
+This information is used to authenticate your account and provide you with access to our website or services.
+
+### Use of Information
+
+We may use the information we collect from your Google account to provide you with the services you requested and to improve the overall user experience. 
+We may also use your information to send you updates or notifications about our website or services.
+
+### Disclosure of Information
+
+We will not share, sell, or otherwise disclose the information we collect from your Google account to any third parties except as required by law or to protect the rights and safety of our website or services. 
+The privacy policy and in-product privacy notifications clearly describe the way our application accesses, uses, stores, or shares Google user data.
+
+### Security of Information
+
+We take the security of your information seriously and have implemented measures to protect it from unauthorized access or use. 
+However, please note that no website or service is completely secure and we cannot guarantee the complete security of your information.
+
+### Changes to this Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. 
+If we make any material changes, we will notify you by email or by posting a notice on our website.
+
+### Contact Us
+
+If you have any questions or concerns about this Privacy Policy or our collection, use, or disclosure of your information, please contact us at saas@unify.ai.
