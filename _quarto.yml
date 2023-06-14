@@ -5,6 +5,7 @@ project:
   render:
     - "telemetry/index.qmd"
     - "privacy/index.qmd"
+    - "odsc/index.ipynb"
 
 website:
   title: "Ivy"
