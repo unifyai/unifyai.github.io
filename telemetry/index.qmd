@@ -17,6 +17,9 @@ More specifically, by sharing your data, this means more time will be spent on i
 
 If you use the premium features with an account, this data is stored in a database with the key being your account id. If you do not create an Ivy account, the data is stored in a database with the key being a securely hashed version of the IP address from where the call was made.
 
+**NOTE:** Users with **early pilot access** will have **Graph** mode turned on. 
+This helps in informing the team about how Ivy is being used and where it can be improved.
+Thus, we ask for more usage data in order to improve our product at a faster pace.
 
 ### Telemetry Modes
 
@@ -83,10 +86,6 @@ comp_fn = ivy.compile(fn, to=”torch”, include_generators=True)
 ```
 
 Similar to the previous mode, this helps even more to prioritize certain functions that need to be included, fixed, or optimized based on their actual usage. The usage frequencies give another very helpful data point to be even more accurate with function prioritization, as it’s now possible to focus on the functions depending on how commonly used they are.
-
-**NOTE:** Users with the **early pilot access** should have this mode turned on at the minimum. 
-This helps in informing the team about how Ivy is being used and where it can be improved.
-Thus, we ask for more usage data in order to improve our product at a faster pace.
 
 5. **graph**
 
