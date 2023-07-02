@@ -17,21 +17,11 @@ More specifically, by sharing your data, this means more time will be spent on i
 
 If you use the premium features with an account, this data is stored in a database with the key being your account id. If you do not create an Ivy account, the data is stored in a database with the key being a securely hashed version of the IP address from where the call was made.
 
-**NOTE:** Users with **early pilot access** will have **Graph** mode turned on. 
-This helps in informing the team about how Ivy is being used and where it can be improved.
-Thus, we ask for more usage data in order to improve our product at a faster pace.
-
 ### Telemetry Modes
 
 This section outlines the different modes available to all users, as well as the data that is collected for each one when calling `ivy.compile`, `ivy.transpile`, or `ivy.unify`. 
 
-1. **stealth** 
-
-No data at all. 😄
-
-This mode is limited to users with the **enterprise** license only.
-
-2. **api-calls**
+1. **api-calls**
 
 Ivy function signature and its timestamp.
 
@@ -49,7 +39,7 @@ comp_fn = ivy.compile(fn, to=”torch”, include_generators=True)
 
 This is helpful to understand the typical usage of Ivy, making it possible to focus the development on the more widely used features and use cases of Ivy. 
 
-3. **functional-api**
+2. **functional-api**
 
 Ivy function signature, timestamp, and the set of used functions from the corresponding functional API, without their frequencies.
 
@@ -68,7 +58,7 @@ comp_fn = ivy.compile(fn, to=”torch”, include_generators=True)
 
 As mentioned above, this helps prioritize the addition of new functions and fixing of existing ones based on actual user usage of them, rather than relying on guess work and potentially focusing our efforts on functions that may not be wanted or needed by the users.
 
-4. **functional-api-frequency**
+3. **functional-api-frequency**
 
 Ivy function signature, timestamp, and the set of used functions from the corresponding functional API along the number of calls to each function.
 
@@ -87,7 +77,7 @@ comp_fn = ivy.compile(fn, to=”torch”, include_generators=True)
 
 Similar to the previous mode, this helps even more to prioritize certain functions that need to be included, fixed, or optimized based on their actual usage. The usage frequencies give another very helpful data point to be even more accurate with function prioritization, as it’s now possible to focus on the functions depending on how commonly used they are.
 
-5. **graph**
+4. **graph**
 
 Ivy function signature, timestamp and a text-based representation of the computation graph. 
 This mode is set by **default** on `pip install ivy`.
@@ -121,13 +111,13 @@ Furthermore, having an anonymized, minimal version of the computational graph al
 
 Below, you can find a summary of the modes and their corresponding data levels:
 
-|               | stealth | api-calls | functional-api | functional-api-frequency | graph |
-|:-------------:|:-------:|:---------:|:--------------:|:------------------------:|:-----:|
-| Ivy signature |    -    |     x     |       x        |            x             |   x   |
-|  Time stamp   |    -    |     x     |       x        |            x             |   x   |
-|   Functions   |    -    |     -     |       x        |            x             |   x   |
-|   Frequency   |    -    |     -     |       -        |            x             |   x   |
-|  Graph repr.  |    -    |     -     |       -        |            -             |   x   |
+|               | api-calls | functional-api | functional-api-frequency | graph |
+|:-------------:|:---------:|:--------------:|:------------------------:|:-----:|
+| Ivy signature |     x     |       x        |            x             |   x   |
+|  Time stamp   |     x     |       x        |            x             |   x   |
+|   Functions   |     -     |       x        |            x             |   x   |
+|   Frequency   |     -     |       -        |            x             |   x   |
+|  Graph repr.  |     -     |       -        |            -             |   x   |
 
 
 
