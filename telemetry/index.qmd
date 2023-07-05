@@ -17,6 +17,8 @@ More specifically, by sharing your data, this means more time will be spent on i
 
 If you use the premium features with an account, this data is stored in a database with the key being your account id. If you do not create an Ivy account, the data is stored in a database with the key being a securely hashed version of the IP address from where the call was made.
 
+In addition to the information specified in each mode, an initial package will be sent the first time your API key is validated. This package will include the hostname, operating system, time zone, and public IP of the machine where the code is being executed.
+
 ### Telemetry Modes
 
 This section outlines the different modes available to all users, as well as the data that is collected for each one when calling `ivy.compile`, `ivy.transpile`, or `ivy.unify`. 
