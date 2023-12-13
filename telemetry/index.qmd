@@ -1,21 +1,21 @@
 ---
-pagetitle: "Telemetry Policy - Ivy"
+pagetitle: "Telemetry Policy - Unify"
 ---
 
 ## Telemetry Policy
 
-We want to give Ivy’s users as much flexibility as possible when it comes to data collection. 
+We want to give Unify’s users as much flexibility as possible when it comes to data collection. 
 Therefore, there are **five** different data sharing modes for you to choose from. 😄
 
 Keep in mind that any collected data is string-based and as concise as possible, this is, no training data, model parameter, or input array to your function or model will leave your computer at any time in terms of telemetry.
 
-All of the data is totally anonymised, and is used to inform about Ivy’s usage, helping us prioritize the development of features and the improvement of the most used functions across all the versions of all the frameworks when it comes to compilation and transpilation.
+All of the data is totally anonymised, and is used to inform about Unify’s usage, helping us prioritize the development of features in the Model Hub and the improvement of the most used functions across all the versions of all the frameworks when it comes to Ivy transpilation.
 
-Ivy will be a much better framework if it’s possible to prioritize adding new functions and improving existing ones based on their actual usage in the community, rather than leaving this all to guess work and potentially focusing our efforts on functions people don’t actually want or need.
+The Model Hub and Ivy transpiler will be much better services if it’s possible to prioritize adding new features and improving existing ones based on their actual usage in the community, rather than leaving this all to guess work and potentially focusing our efforts on functions people don’t actually want or need.
 
-More specifically, by sharing your data, this means more time will be spent on improving the functions, frameworks, and computation graphs that matter most for your projects.
+More specifically, by sharing your data, this means more time will be spent on improving the features, frameworks, and computation graphs that matter most for your projects.
 
-If you use the premium features with an account, this data is stored in a database with the key being your account id. If you do not create an Ivy account, the data is stored in a database with the key being a securely hashed version of the IP address from where the call was made.
+If you use the premium features with an account, this data is stored in a database with the key being your account id. If you do not create a Unify account, the data is stored in a database with the key being a securely hashed version of the IP address from where the call was made.
 
 In addition to the information specified in each mode, an initial package will be sent the first time your API key is validated. This package will include the hostname, operating system, time zone, and public IP of the machine where the code is being executed.
 
