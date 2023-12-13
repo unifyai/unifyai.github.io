@@ -1,5 +1,5 @@
 ---
-pagetitle: "Privacy Policy - Ivy"
+pagetitle: "Privacy Policy - Unify"
 ---
 
 ## Privacy Policy
