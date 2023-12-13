@@ -9,9 +9,9 @@ Therefore, there are **five** different data sharing modes for you to choose fro
 
 Keep in mind that any collected data is string-based and as concise as possible, this is, no training data, model parameter, or input array to your function or model will leave your computer at any time in terms of telemetry.
 
-All of the data is totally anonymised, and is used to inform about Unify’s usage, helping us prioritize the development of features in the Model Hub and the improvement of the most used functions across all the versions of all the frameworks when it comes to Ivy transpilation.
+All of the data is totally anonymised, and is used to inform about Unify’s usage, helping us prioritize the development of features and the improvement of the most used functions across all the versions of all the frameworks when it comes to Ivy transpilation.
 
-The Model Hub and Ivy transpiler will be much better services if it’s possible to prioritize adding new features and improving existing ones based on their actual usage in the community, rather than leaving this all to guess work and potentially focusing our efforts on functions people don’t actually want or need.
+The Ivy transpiler will be a much better service if it’s possible to prioritize adding new features and improving existing ones based on their actual usage in the community, rather than leaving this all to guess work and potentially focusing our efforts on functions people don’t actually want or need.
 
 More specifically, by sharing your data, this means more time will be spent on improving the features, frameworks, and computation graphs that matter most for your projects.
 
