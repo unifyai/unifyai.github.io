@@ -1,0 +1,20 @@
+name: Build Quarto
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    # Only trigger the workflow when the build_quarto flag is set
+    if: contains(github.event.head_commit.message, 'build_quarto')
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+    
+    - name: Render Quarto Project
+      uses: quarto-dev/quarto-actions/render@v2
+      with:
+        to: html

@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: "quarto_pages"
+  lib-dir: "quarto_lib/lib"
+  render:
+    - "telemetry/index.qmd"
+    - "privacy/index.qmd"
+    - "odsc/index.ipynb"
+
+website:
+  title: "Ivy"
+  favicon: "img/logos/ivy_logo_only.png"
+  page-navigation: true
+  sidebar: false
+
+format:
+  html:
+    toc: true
+    theme: css/custom.scss
+    page-layout: full
+    code-overflow: scroll
+    jupyter: python3
+    monobackgroundcolor: "#ffffff"
+    execute:
+      echo: true
+      output: true
+      eval: true
